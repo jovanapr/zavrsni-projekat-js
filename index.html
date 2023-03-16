@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Predavanje 6</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="StyleSheet.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-secondary navbar-dark">
+        <div class="container ">
+            <a class="navbar-brand px-lg-5"
+                style="font-size: 16px; font-family:Arial, Helvetica, sans-serif; font-weight:bold;"
+                href="index.html">IME PREZIME</a>
+            <button class="navbar-toggler px-3 py-3 rounded text-light "
+                style="background-color:rgb(28, 147, 131); font-size: small ;" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar">MENU
+                <span class="navbar-toggler-icon text-light"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto"
+                    style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded text-light" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item  mx-0 mx-lg-1">
+                        <a class="nav-link  py-3 px-0 px-lg-3 rounded  text-light" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1 ">
+                        <a class="nav-link  py-3 px-0 px-lg-3 rounded  text-light" href="#contact">CONTACT</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1 ">
+                        <a class="nav-link  py-3 px-0 px-lg-3 rounded  text-light" href="survey.html">SURVEY</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <section id="main" style="background-color: rgb(28, 147, 131); height: 500px;">
+        <div class="container-fluid text-center">
+            <div class="align-items-center" style="padding-top: 120px;">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="img/avataaars.svg" style="width: 150px;">
+                    </div>
+                    <div class="col-12 text-light pt-4 ">
+                        <h2 class="display-6" style="font-weight: 500;">IME PREZIME</h2>
+                    </div>
+                    <div class="col-12 ">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="bg-light rounded mx-2" style="width: 80px; height:3px"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" color="white"
+                                fill="currentColor" class="bi bi-star-fill px-1" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <div class="bg-light rounded mx-2" style="width: 80px; height:3px"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-light pt-3">
+                        <p>Frontend Developer - Web Designer - Scrum Master</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container pt-5">
+            <div class="text-center">
+                <h2 class="text-secondary">PORTFOLIO</h2>
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="bg-dark rounded mx-2" style="width: 80px; height:3px"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" color="dark-grey" fill="currentColor"
+                        class="bi bi-star-fill px-1" viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <div class="bg-dark rounded mx-2" style="width: 80px; height:3px"></div>
+                </div>
+            </div>
+            <div class="row pictures" style="padding-bottom: 90px;">
+                <div class="col-md-6 col-lg-4 col-sm-12 gy-5 item">
+                    <div>
+                        <a data-bs-toggle="modal" data-bs-target="#full_size_image_dialog">
+                            <div>
+                                <div class="box">
+                                    <img class="w-100 h-100" src="img/image1.jpg">
+                                    <div class="cover">
+                                        <svg class="w-50 h-50 plus" xmlns="http://www.w3.org/2000/svg" color="white"
+                                            fill="currentColor"
+                                            viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                            <path
+                                                d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="full_size_image_dialog" class="modal">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <h4 class="text-secondary text-center pt-4"> C# </h4>
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <div class="bg-dark rounded mx-2" style="width: 80px; height:3px"></div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                                                color="dark-grey" fill="currentColor" class="bi bi-star-fill px-1"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <div class="bg-dark rounded mx-2" style="width: 80px; height:3px"></div>
+                                        </div>
+                                        <div class="py-3 text-center">
+                                            <img class="w-50 h-50" src="img/image1.jpg">
+                                            <p class="text-dark pt-4" style="font-size:small;">C# is widely used for
+                                                developing desktop applications, web applications and web services. It
+                                                is used in creating applications of Microsoft at a large scale. C# is
+                                                also used in game development in Unity.</p>
+                                            <button type="button" class="btn text-light text-center"
+                                                data-bs-dismiss="modal"
+                                                style="background-color: rgb(28, 147, 131); width: 100px; height: 30px;font-size:x-small;">
+                                                X Close Window</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 gy-5 item">
+                    <div class="box">
+                        <img class=" w-100 h-100" src="img/image2.jpg">
+                        <div class="cover">
+                            <svg class="w-50 h-50 plus" xmlns="http://www.w3.org/2000/svg" color="white"
+                                fill="currentColor"
+                                viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z" />
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 gy-5 item">
+                    <div class="box">
+                        <img class="w-100 h-100" src="img/image3.jpg">
+                        <div class="cover">
+                            <svg class="w-50 h-50 plus" xmlns="http://www.w3.org/2000/svg" color="white"
+                                fill="currentColor"
+                                viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z" />
+                            </svg>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 gy-5 item">
+                    <div class="box">
+                        <img class="w-100 h-100" src="img/image4.jpg">
+                        <div class="cover">
+                            <svg class="w-50 h-50 plus" xmlns="http://www.w3.org/2000/svg" color="white"
+                                fill="currentColor"
+                                viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 gy-5 item">
+                    <div class="box">
+                        <img class="w-100 h-100" src="img/image5.jpg">
+                        <div class="cover">
+                            <svg class="w-50 h-50 plus" xmlns="http://www.w3.org/2000/svg" color="white"
+                                fill="currentColor"
+                                viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 gy-5 item">
+                    <div class="box">
+                        <img class="w-100 h-100" src="img/image6.jpg">
+                        <div class="cover">
+                            <svg class="w-50 h-50 plus" xmlns="http://www.w3.org/2000/svg" color="white"
+                                fill="currentColor"
+                                viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+    <section id="about" style="background-color: rgb(28, 147, 131);">
+        <div class="container py-5">
+            <div class="text-center">
+                <h2 class="text-light">ABOUT</h2>
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="bg-light rounded mx-2" style="width: 80px; height:3px"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" color="white" fill="currentColor"
+                        class="bi bi-star-fill px-1" viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <div class="bg-light rounded mx-2" style="width: 80px; height:3px"></div>
+                </div>
+                <div class="py-3">
+                    <div class="row text-light d-flex justify-content-center text-start" style="font-weight: 200;">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            Front-end web development, also known as client-side development is the practice of
+                            producing HTML, CSS and JavaScript for a website or Web Application so that a user can see
+                            and interact with them directly. The challenge associated with front end development is that
+                            the tools and techniques used to create the front end of a website change constantly and so
+                            the developer needs to constantly be aware of how the field is developing.
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            The objective of designing a site is to ensure that when the users open up the site they see
+                            the information in a format that is easy to read and relevant. This is further complicated
+                            by the fact that users now use a large variety of devices with varying screen sizes and
+                            resolutions thus forcing the designer to take into consideration these aspects when
+                            designing the site. They need to ensure that their site comes up correctly in different
+                            browsers...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact" style="height: 500px;">
+        <div class="container d-flex justify-content-center py-5">
+            <div class="text-center">
+                <h2 class="text-secondary">CONTACT ME</h2>
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="bg-dark rounded mx-2" style="width: 80px; height:3px"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" color="dark-grey" fill="currentColor"
+                        class="bi bi-star-fill px-1" viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <div class="bg-dark rounded mx-2" style="width: 80px; height:3px"></div>
+                </div>
+
+                <div class="row px-5 d-flex justify-content-center">
+                    <div class="col-8">
+                        <label for="name" class="form-label"></label>
+                        <input type="text" class="form-control" id="name" placeholder="Full Name">
+                    </div>
+                    <div class="col-8">
+                        <label for="email" class="form-label"></label>
+                        <input type="email" class="form-control" id="email" placeholder="Email address">
+                    </div>
+                    <div class="col-8">
+                        <label for="Phone" class="form-label"></label>
+                        <input type="phonebox" class="form-control" id="Phone" placeholder="Phone number">
+                    </div>
+                    <div class="col-8">
+                        <label for="message" class="form-label"></label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-8 text-start py-3">
+                        <button type="submit" class="btn text-light btn-lg"
+                            style="background-color:rgb(28, 147, 131); font-size: small;">Send</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+    </section>
+    <section id="info" style="background-color: rgb(64, 51, 93);">
+        <div class="container mt-5 text-center">
+            <div class="row pt-5 ">
+                <div class="col-lg-4 ">
+                    <h6 class="text-light">LOCATION</h6>
+                    <p class="text-light mt-2 mb-4" style="font-weight: 200;">SMARTINIT Novi Sad <br> Serbia</p>
+
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="text-light text-center">AROUND THE WEB</h6>
+
+                    <div class="d-inline-flex justify-content-center align-items-center mt-2 mb-4">
+                        <div class="rounded d-flex justify-content-center align-items-center mx-2 icon"
+                            style="border: 1px solid white; width: 35px; height: 30px;">
+                            <svg class="w-50 h-50" color="white" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 320 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                            </svg>
+                        </div>
+
+                        <div class=" rounded d-flex justify-content-center align-items-center px-2 icon"
+                            style="border: 1px solid white; width: 35px; height: 30px;">
+                            <svg class="w-50 h-50" color="white" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                            </svg>
+                        </div>
+                        <div class=" rounded d-flex justify-content-center align-items-center mx-2 px-2 icon"
+                            style="border: 1px solid white; width: 35px; height: 30px;">
+                            <svg class="w-50 h-50" color="white" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                            </svg>
+                        </div>
+                        <div class=" rounded d-flex justify-content-center align-items-center px-2 icon"
+                            style="border: 1px solid white; width: 35px; height: 30px;">
+                            <svg class="w-50 h-50" color="white" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M120.1 37.44C161.1 12.23 207.7-.7753 255 .0016C423 .0016 512 123.8 512 219.5C511.9 252.2 499 283.4 476.1 306.7C453.2 329.9 422.1 343.2 389.4 343.7C314.2 343.7 297.9 320.6 297.9 311.7C297.9 307.9 299.1 305.5 302.7 302.3L303.7 301.1L304.1 299.5C314.6 288 320 273.3 320 257.9C320 179.2 237.8 115.2 136 115.2C98.46 114.9 61.46 124.1 28.48 142.1C55.48 84.58 111.2 44.5 119.8 38.28C120.6 37.73 120.1 37.44 120.1 37.44V37.44zM135.7 355.5C134.3 385.5 140.3 415.5 152.1 442.7C165.7 469.1 184.8 493.7 208.6 512C149.1 500.5 97.11 468.1 59.2 422.7C21.12 376.3 0 318.4 0 257.9C0 206.7 62.4 163.5 136 163.5C172.6 162.9 208.4 174.4 237.8 196.2L234.2 197.4C182.7 215 135.7 288.1 135.7 355.5V355.5zM469.8 400L469.1 400.1C457.3 418.9 443.2 435.2 426.9 449.6C396.1 477.6 358.8 495.1 318.1 499.5C299.5 499.8 281.3 496.3 264.3 488.1C238.7 477.8 217.2 458.1 202.7 435.1C188.3 411.2 181.6 383.4 183.7 355.5C183.1 335.4 189.1 315.2 198.7 297.3C212.6 330.4 236.2 358.6 266.3 378.1C296.4 397.6 331.8 407.6 367.7 406.7C398.7 407 429.8 400 457.9 386.2L459.8 385.3C463.7 383 467.5 381.4 471.4 385.3C475.9 390.2 473.2 394.5 470.2 399.3C470 399.5 469.9 399.8 469.8 400V400z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5 ">
+                    <h6 class="text-light">ABOUT SMARTINIT</h6>
+                    <span class="text-center text-light">PanonIT Code Academy -> <a href="#">Start Course</a>.</span>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <footer class="bg-dark">
+        <div class="text-light py-4 text-center">
+            Copyright &copy; Ime Prezime 2023
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
